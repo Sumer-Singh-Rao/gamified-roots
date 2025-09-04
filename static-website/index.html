@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackNRun - Gamified Learning for Rural Education</title>
+    <meta name="description" content="Gamified STEM education platform for rural students grades 6-12. Interactive games, multilingual content, and offline access for enhanced learning outcomes." />
+    <meta name="author" content="HackNRun Team" />
+    <meta name="keywords" content="gamified learning, rural education, STEM, Smart India Hackathon, educational games, offline learning" />
+
+    <meta property="og:title" content="HackNRun - Gamified Learning for Rural Education" />
+    <meta property="og:description" content="Revolutionary gamified STEM education platform designed for rural students. Interactive games, multilingual support, and offline capabilities." />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-brand">
+                <h1 class="logo">HackNRun</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" onclick="scrollToSection('hero')">Home</a></li>
+                    <li><a href="#features" onclick="scrollToSection('features')">Features</a></li>
+                    <li><a href="#subjects" onclick="scrollToSection('subjects')">Subjects</a></li>
+                    <li><a href="#demo" onclick="scrollToSection('demo')">Demo</a></li>
+                    <li><a href="#contact" onclick="scrollToSection('footer')">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary" onclick="scrollToSection('demo')">Try Demo</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="floating-icon floating-icon-1">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                    <path d="M15 14h-5l-3 6-3-6h5v-4h6v4z"/>
+                </svg>
+            </div>
+            <div class="floating-icon floating-icon-2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                </svg>
+            </div>
+            <div class="floating-icon floating-icon-3">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <circle cx="12" cy="12" r="6"/>
+                    <circle cx="12" cy="12" r="2"/>
+                </svg>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Transform Rural Education Through Gaming</h1>
+            <p class="hero-description">Revolutionary gamified STEM platform designed for rural students grades 6-12. Learn Mathematics, Physics, Chemistry, and Biology through interactive games - even offline!</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary btn-large" onclick="scrollToSection('demo')">Start Learning Now</button>
+                <button class="btn btn-secondary btn-large" onclick="scrollToSection('demo')">Watch Demo</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">90%</div>
+                    <div class="stat-label">Student Engagement</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Languages Supported</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Offline Compatible</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m6 9 6 6 6-6"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Amazing Features</h2>
+                <p class="section-subtitle">Discover what makes our platform perfect for rural education</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: hsl(237, 73%, 62%);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                            <path d="M15 14h-5l-3 6-3-6h5v-4h6v4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Interactive Games</h3>
+                    <p class="feature-description">Engage with STEM subjects through fun, educational games that make learning enjoyable and memorable.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: hsl(164, 76%, 42%);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Multilingual Support</h3>
+                    <p class="feature-description">Learn in your native language with support for Hindi, English, and regional languages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: hsl(340, 89%, 56%);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+                            <path d="m15 5 4 4"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Offline Access</h3>
+                    <p class="feature-description">Download lessons and continue learning without internet connectivity - perfect for rural areas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: hsl(46, 100%, 70%);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3v18h18"/>
+                            <path d="m19 9-5 5-4-4-3 3"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Progress Tracking</h3>
+                    <p class="feature-description">Teachers can monitor student progress and identify areas needing improvement with detailed analytics.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: hsl(281, 92%, 38%);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                            <path d="M12 18h.01"/>
+                            <path d="M8 6h8"/>
+                            <path d="M8 10h8"/>
+                            <path d="M8 14h5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Low-Cost Device Ready</h3>
+                    <p class="feature-description">Optimized to run smoothly on affordable smartphones and tablets commonly used in rural areas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="color: hsl(164, 76%, 42%);">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                            <path d="M4 22h16"/>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Achievement System</h3>
+                    <p class="feature-description">Earn badges, unlock levels, and compete with classmates to make learning competitive and fun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects">
+        <div class="subjects-bg">
+            <div class="floating-elements">
+                <div class="floating-dot dot-1"></div>
+                <div class="floating-dot dot-2"></div>
+                <div class="floating-dot dot-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">STEM Subjects</h2>
+                <p class="section-subtitle">Master core subjects through gamified learning experiences</p>
+            </div>
+            <div class="subjects-grid">
+                <div class="subject-card" style="background-color: hsl(237, 73%, 62%, 0.1);">
+                    <div class="subject-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="4" height="16" x="6" y="2"/>
+                            <rect width="4" height="16" x="14" y="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="subject-title">Mathematics</h3>
+                    <p class="subject-description">From basic arithmetic to advanced calculus, learn math through interactive puzzles and real-world problem solving.</p>
+                </div>
+                <div class="subject-card" style="background-color: hsl(164, 76%, 42%, 0.1);">
+                    <div class="subject-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v6m0 6v6"/>
+                            <path d="m9 2 3 3 3-3"/>
+                            <path d="m9 22 3-3 3 3"/>
+                            <path d="m20 9-3 3 3 3"/>
+                            <path d="m4 9 3 3-3 3"/>
+                        </svg>
+                    </div>
+                    <h3 class="subject-title">Physics</h3>
+                    <p class="subject-description">Explore the laws of motion, energy, and electricity through virtual experiments and simulations.</p>
+                </div>
+                <div class="subject-card" style="background-color: hsl(340, 89%, 56%, 0.1);">
+                    <div class="subject-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 2 7.17 4H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3.17L15 2H9Z"/>
+                            <circle cx="12" cy="13" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="subject-title">Chemistry</h3>
+                    <p class="subject-description">Discover elements, compounds, and reactions in our safe virtual laboratory environment.</p>
+                </div>
+                <div class="subject-card" style="background-color: hsl(46, 100%, 70%, 0.1);">
+                    <div class="subject-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3 class="subject-title">Biology</h3>
+                    <p class="subject-description">Journey through cells, genetics, and ecosystems with interactive 3D models and virtual dissections.</p>
+                </div>
+            </div>
+            <div class="interactive-features">
+                <div class="feature-badge">
+                    <div class="badge-dot"></div>
+                    <span>Interactive Learning</span>
+                </div>
+                <div class="feature-badge">
+                    <div class="badge-dot"></div>
+                    <span>Real-time Feedback</span>
+                </div>
+                <div class="feature-badge">
+                    <div class="badge-dot"></div>
+                    <span>Progress Tracking</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience the Platform</h2>
+                <p class="section-subtitle">See how our gamified learning transforms education</p>
+            </div>
+            
+            <div class="demo-showcase">
+                <div class="demo-video">
+                    <div class="video-placeholder">
+                        <div class="video-content">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5,3 19,12 5,21"/>
+                            </svg>
+                            <p>Watch Interactive Demo</p>
+                        </div>
+                    </div>
+                    <div class="video-badges">
+                        <span class="badge live">Live Demo</span>
+                        <span class="badge interactive">Interactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="platform-features">
+                <div class="platform-grid">
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect width="20" height="14" x="2" y="3" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3>Web Platform</h3>
+                        <p>Access via any web browser on computers, tablets, or smartphones</p>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                                <path d="M12 18h.01"/>
+                            </svg>
+                        </div>
+                        <h3>Mobile App</h3>
+                        <p>Native Android app optimized for low-cost devices and limited data</p>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7,10 12,15 17,10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                        </div>
+                        <h3>Offline Ready</h3>
+                        <p>Download content for offline learning - no internet required</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-cta">
+                <h3>Ready to Transform Rural Education?</h3>
+                <p>Join thousands of students already learning through our gamified platform</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large">Try Demo Now</button>
+                    <button class="btn btn-secondary btn-large">Download App</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">HackNRun</h2>
+                    <p class="footer-tagline">Gamified Learning for Rural Education</p>
+                    <p class="footer-description">Empowering rural students with interactive STEM education through innovative gaming technology.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero" onclick="scrollToSection('hero')">Home</a></li>
+                        <li><a href="#features" onclick="scrollToSection('features')">Features</a></li>
+                        <li><a href="#subjects" onclick="scrollToSection('subjects')">Subjects</a></li>
+                        <li><a href="#demo" onclick="scrollToSection('demo')">Demo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>contact@hacknrun.edu</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Smart India Hackathon 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect width="4" height="12" x="2" y="9"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 HackNRun. All rights reserved.</p>
+                </div>
+                <div class="footer-badge">
+                    <span class="achievement-badge">🏆 SIH 2024 Winner</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
